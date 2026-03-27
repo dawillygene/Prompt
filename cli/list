@@ -1,0 +1,16 @@
+myprompts commands:
+  ui                      - Launch interactive UI (recommended!)
+  register --name NAME --email EMAIL --password PASSWORD
+  login --email EMAIL --password PASSWORD
+  logout
+  whoami
+  add --title TITLE --content CONTENT [--summary SUMMARY] [--visibility private|public]
+  list [--search KEYWORD] [--category_id ID] [--tag_id ID] [--sort updated_at]
+  show <id-or-slug>
+  delete <id-or-slug>
+  favorite <id-or-slug>
+  archive <id-or-slug>
+  search <keyword>
+  category create <name>
+  tag create <name>
+  config set api_base <url>
