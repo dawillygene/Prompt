@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+
+cli/bin/
+cli/.cache/
+
+backend/vendor/
+backend/node_modules/
+
+# Local import and requirements artifacts
+promptrepo-public-import.json
+my_prompt_repository_requirements.json
+scripts/scrape_promptrepo_to_import.py
